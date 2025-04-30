@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+coverage/
+
+# Production build
+build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# React Native
+*.xcodeproj/
+*.xcworkspace/
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS Finder files
+.FSCache
