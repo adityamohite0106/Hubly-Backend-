@@ -47,7 +47,7 @@ mongoose
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ MongoDB Error:", err));
 
-// Log all registered routes for debugging (using express-list-endpoints)
+// Log all registered routes for debugging
 const listEndpoints = require('express-list-endpoints');
 console.log('Registered Routes:');
 listEndpoints(app).forEach((route) => {
